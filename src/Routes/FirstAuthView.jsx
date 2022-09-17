@@ -63,7 +63,7 @@ function FirstAuthView() {
       return(
         <div className="firstAuthView-forms signup">
           <h2>Signup form</h2>
-          <form method="post" action="http://localhost:8080/signup">
+          <form method="post" action="https://curly-braces-server.herokuapp.com/signup">
             <div className="username-inputs">
               <label htmlFor='username'>Username:</label>
               <input type={'text'} id='username' name="username" required minLength={1}></input>
@@ -86,7 +86,7 @@ function FirstAuthView() {
       return(
         <div className="firstAuthView-forms login">
           <h2>Login form</h2>
-          <form method="post" action="http://localhost:8080/login">
+          <form method="post" action="https://curly-braces-server.herokuapp.com/login">
             <div className="username-inputs">
               <label htmlFor="username">Username:</label>
               <input type={'text'} id='username' name="username" required></input>

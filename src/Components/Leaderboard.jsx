@@ -13,7 +13,7 @@ function Leaderboard() {
   const [username, setUsername] = useState(null);
   const [options, setOptions] = useState(null);
     useEffect(()=>{
-        fetch('http://localhost:8080/leaderboardData')
+        fetch('https://curly-braces-server.herokuapp.com//leaderboardData')
           .then(res=>{
             res.json()
               .then(finalData=>{
@@ -21,7 +21,7 @@ function Leaderboard() {
               })
           })
           const userID = window.location.href.slice(-36,-12);
-          fetch(`http://localhost:8080/user-${userID}`)
+          fetch(`https://curly-braces-server.herokuapp.com//user-${userID}`)
             .then(res=>{
               res.json()
                 .then(finalData=>{

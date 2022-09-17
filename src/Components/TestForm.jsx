@@ -46,7 +46,7 @@ function TestForm() {
 
 
     return (
-        <form noValidate method='post' action='http://localhost:8080/test'>
+        <form noValidate method='post' action='https://curly-braces-server.herokuapp.com/test'>
             <div className='question'>
                 <h3>Question 1: What is big O notation?</h3>
                 <label>It shows how your code time and space complexity grows when given data gets bigger. THIS

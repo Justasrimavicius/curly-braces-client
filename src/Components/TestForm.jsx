@@ -49,7 +49,7 @@ function TestForm() {
         <form noValidate method='post' action='https://curly-braces-server.herokuapp.com/test'>
             <div className='question'>
                 <h3>Question 1: What is big O notation?</h3>
-                <label>It shows how your code time and space complexity grows when given data gets bigger. THIS
+                <label>It shows how your code time and space complexity grows when given data gets bigger.
                     <input type='checkbox' name='q1-1'></input>
                 </label>
                 <label>It is a pizza recipe.
@@ -69,7 +69,7 @@ function TestForm() {
                 <label>That the algorithm takes n times log(n) time, where n stands for seconds.
                     <input type='checkbox' name='q2-1'></input>
                 </label>
-                <label>The algorithms time complexity is proportional with the size of given data in n*log(n) correlation. THIS
+                <label>The algorithms time complexity is proportional with the size of given data in n*log(n) correlation.
                     <input type='checkbox' name='q2-2'></input>
                 </label>
                 <label>That the time for this algorithm to finish isnt correlated with the given data.
@@ -91,7 +91,7 @@ function TestForm() {
                 <label>Binary traversal method, when you first read the left, then right, then root.
                     <input type='checkbox' name='q3-3'></input>
                 </label>
-                <label>Binary traversal method, when you read nodes by level. THIS
+                <label>Binary traversal method, when you read nodes by level.
                     <input type='checkbox' name='q3-4'></input>
                 </label>
             </div>
@@ -104,7 +104,7 @@ function TestForm() {
                 <label>left,right,root; left,root,right; root,left,right.
                     <input type='checkbox' name='q4-2'></input>
                 </label>
-                <label>root,left,right; left,root,right; left,right,root. THIS
+                <label>root,left,right; left,root,right; left,right,root.
                     <input type='checkbox' name='q4-3'></input>
                 </label>
                 <label>root,left,right; root,right,left; left,root,right.
@@ -123,7 +123,7 @@ function TestForm() {
                 <label>Level order.
                     <input type='checkbox' name='q5-3'></input>
                 </label>
-                <label>Inorder. THIS
+                <label>Inorder.
                     <input type='checkbox' name='q5-4'></input>
                 </label>
             </div>
@@ -133,7 +133,7 @@ function TestForm() {
                 <label>Because it uses nested loops.
                     <input type='checkbox' name='q6-1'></input>
                 </label>
-                <label>Because it is a lot faster with large data. THIS
+                <label>Because it is a lot faster with large data.
                     <input type='checkbox' name='q6-2'></input>
                 </label>
                 <label>Because it does not use a lot of space.
@@ -146,7 +146,7 @@ function TestForm() {
 
             <div className='question'>
                 <h3>Question 7: Stack data structure usage or example.</h3>
-                <label>Undo/go back button. THIS
+                <label>Undo/go back button.
                     <input type='checkbox' name='q7-1'></input>
                 </label>
                 <label>Maintaining playlists in media players.
@@ -162,7 +162,7 @@ function TestForm() {
 
             <div className='question'>
                 <h3>Question 8: Queue data structure usage or example.</h3>
-                <label>Serving web requests. THIS
+                <label>Serving web requests.
                     <input type='checkbox' name='q8-1'></input>
                 </label>
                 <label>Used in depth-first-search binary tree traversal.
@@ -181,7 +181,7 @@ function TestForm() {
                 <label>It is better space-wise.
                     <input type='checkbox' name='q9-1'></input>
                 </label>
-                <label>It does not need to iterate through all of the elements in the worst case scenario. THIS
+                <label>It does not need to iterate through all of the elements in the worst case scenario.
                     <input type='checkbox' name='q9-2'></input>
                 </label>
                 <label>They are equal in all scenarios.
@@ -203,7 +203,7 @@ function TestForm() {
                 <label>Not stoping the looping/checking conditions when the algorithm has done its job.
                     <input type='checkbox' name='q10-3'></input>
                 </label>
-                <label>Doing everything that was mentioned above even though it is not needed. THIS
+                <label>Doing everything that was mentioned above even though it is not needed.
                     <input type='checkbox' name='q10-4'></input>
                 </label>
             </div>

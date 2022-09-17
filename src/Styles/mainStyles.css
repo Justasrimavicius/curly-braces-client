@@ -1,0 +1,87 @@
+*{
+    color: rgb(206, 232, 255);
+}
+body{
+    margin: 0;
+    background-color: rgb(46, 46, 64);
+}
+button{
+    padding: 6px;
+    margin: 10px;
+    font-size: 1.2rem;
+    border: none;
+    outline: 2px solid aliceblue;
+    background-color: rgb(126, 174, 181);
+    color: rgb(46, 45, 65);
+    transition: 0.3s all;
+}
+button:hover{
+    outline: 4px solid aliceblue;
+}
+button:focus{
+    outline: 6px solid aliceblue;
+}
+footer{
+    position: fixed;
+    top: 94%;
+    height: 6vh;
+    width: 100vw;
+    background-color: rgb(18, 18, 77);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.error{
+    position: absolute;
+    width: 400px;
+
+    height: 100px;
+    margin-top: -50px;
+
+    background-color: rgb(34, 34, 93);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.error-background{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.248);
+}
+.error Button{
+    font-size: 1rem;
+    outline: none;
+}
+.error Button:focus{
+    outline: none;
+}
+.divider-fullWidth{
+    width: 100vw;
+    height: 3px;
+    margin: 10px 0px 10px -10px;
+    background-color: gray;
+}
+.home-default-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.home-default-section h1{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.home-default-section h5{
+    padding-top: 20px;
+}

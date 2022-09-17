@@ -1,0 +1,22 @@
+.home-algorithms-section{
+    height: 100%;
+    width: 100%;
+}
+.a-text > ul strong{
+    font-size: 1.2rem;
+}
+.home-algorithms-section h5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home-algorithms-section img{
+    padding: 20px 50px;
+}
+.home-algorithms-section h6{
+    margin-top: 20px;
+}
+.home-algorithms-section{
+    padding: 0px 10px;
+}

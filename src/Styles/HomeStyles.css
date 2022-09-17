@@ -1,0 +1,11 @@
+.home{
+    height: 84vh;
+    width: 100vw;
+    top: 10%;
+    margin-top: 10vh;
+    position: block;
+}
+.home-section-main-h1{
+    padding-top: 20px;
+    text-align: center;
+}

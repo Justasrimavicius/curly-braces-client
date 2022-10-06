@@ -26,13 +26,25 @@ footer{
     top: 94%;
     height: 6vh;
     width: 100vw;
-    background-color: rgb(18, 18, 77);
+    background-color: rgba(58, 58, 114, 0.685);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+footer a{
+    color: white;
 
+    transition: 1s all;
+}
+footer a:hover{
+    color: rgb(158, 160, 221);
+}
+.divider{
+    width: 100vw;
+    background-color: black;
+    height: 3px;
+}
 .error{
     position: absolute;
     width: 400px;
